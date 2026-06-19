@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { pakistanCitiesList, interpretWeatherCode } from './utils/pakistanData.js';
+import { pakistanCitiesList, interpretWeatherCode } from './utils/pakistanData';
 
 export default function App() {
   const [selectedCity, setSelectedCity] = useState(pakistanCitiesList[0]);
